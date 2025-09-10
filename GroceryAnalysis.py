@@ -215,4 +215,3 @@ for i in frequent_items:
 for i,rule in enumerate(rules):
   print( "Rule: {} -> {}  - - - Confidence {} ".format(rule[0], rule[1], rule[-1]))
 
-"""In class, we only discussed the first two passes of the PCY Algorithm, so that is what I implemented here. Overall, the algorithm gives pretty similar outputs. The number of frequent items and pairs are identical. The rules may be slightly different however. One major detailed that I noticed though, is that this algorithm runs much faster. After practice with both algorithms, I prefer the PCY because of the runtime."""
